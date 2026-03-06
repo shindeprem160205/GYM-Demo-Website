@@ -1,7 +1,3 @@
-/**
- * IRON BEAST FITNESS - Main JavaScript
- * Handles: Navbar, Mobile menu, Scroll reveal, Contact form, Success modal, WhatsApp button
- */
 
 // ========== NAVBAR - Sticky with blur on scroll ==========
 const navbar = document.getElementById('navbar');
@@ -42,7 +38,7 @@ window.addEventListener('load', revealOnScroll);
 // Replace with your WhatsApp number (include country code, no + or spaces)
 // Example: 919876543210 for +91 98765 43210
 const WHATSAPP_NUMBER = '8999542585';
-const WHATSAPP_MESSAGE = encodeURIComponent("Hi! I'm interested in joining Iron Beast Fitness. I'd like to know more about your membership plans.");
+const WHATSAPP_MESSAGE = encodeURIComponent("Hi! I'm interested in joining Falcon Fitness. I'd like to know more about your membership plans.");
 
 const whatsappBtn = document.getElementById('whatsappBtn');
 if (whatsappBtn) {
@@ -243,3 +239,4 @@ document.querySelectorAll('#contactForm .input-modern, #contactForm textarea').f
     if (errorEl) errorEl.classList.add('hidden');
   });
 });
+
